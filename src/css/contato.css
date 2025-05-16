@@ -1,0 +1,135 @@
+#container-contato{
+    padding: 30px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.imagemContato{
+    width: 808px;
+    height: 483px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: url(<path-to-image>) 1;
+}
+
+#container-contato h1{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-family: Teko;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+}
+
+.RELATORIO{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+
+
+
+.nomeEmailMensagem{
+    width: 395px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+button{
+    margin-top: 40px;
+    width: 124px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #02734A 0%, #04D98C 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #fff;
+    font-family: Teko;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imgTelefones{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.imagemTelefone{
+    width: 70px;
+    
+    flex-shrink: 0;
+}
+
+@media (max-width: 980px) {
+
+    #container-contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        padding: 20px;
+        margin-top: 100px;
+    }
+    .imagemContato{
+        width: 100%;
+        height: auto;
+    }
+    #container-contato h1{
+        font-size: 30px;
+    }
+    .RELATORIO{
+        font-size: 20px;
+    }
+    .formulario{
+        width: 70vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nomeEmailMensagem{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+        height: 50px;
+        font-size: 20px;
+    }
+    .imgTelefones{
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mensager{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
