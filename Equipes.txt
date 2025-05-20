@@ -7,3 +7,4 @@ RM 556645 - Mauro Carlos
 
 Link do Repositório:
 https://github.com/EnoTech-CP1-FRONT/CP2-Front-Restaurante.git
+figma no Repositório
